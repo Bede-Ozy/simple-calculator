@@ -95,6 +95,7 @@ body #toggle-theme{
     -webkit-text-fill-color:transparent;
     background:var(--screen-text);
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .buttons{
