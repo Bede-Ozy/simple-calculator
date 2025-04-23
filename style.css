@@ -41,6 +41,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition:all 0.2s ease-in;
 }
 
 body #toggle-theme{
