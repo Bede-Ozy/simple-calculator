@@ -57,7 +57,7 @@ function calculate(){
 
         // reduces font size of the displayed text if the length of the displayed text is more than 30 characters
         if (screen.textContent.length > 30 ){
-            screen.style.fontSize = '20px';
+            screen.style.fontSize = '14px';
         }
         
         // calls the clear storage function
