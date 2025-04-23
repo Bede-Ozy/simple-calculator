@@ -26,7 +26,7 @@ body.light-theme{
     --button-hover-bg:var(var(--body-bg));
     --button-hover-text:#000;
     --screen-bg:#fff;
-    --screen-text:linear-gradient(to bottom, rgb(255, 255, 255), rgba(9, 114, 0, 0.726));
+    --screen-text:linear-gradient(to bottom, rgb(88, 0, 252), rgba(9, 114, 0, 0.726));
     --toggle-bg:#000;
 }
 
