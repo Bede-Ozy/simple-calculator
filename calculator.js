@@ -1,7 +1,10 @@
+const body = document.getElementsByClassName('.body');
 const screen = document.getElementById('text-output');
 const buttons = document.querySelectorAll('#input');
 const equalTo = document.getElementById('equal-to');
 const clear = document.getElementById('clear');
+const themeToggle = document.getElementById('toggle-theme');
+
 console.log(typeof 6/0);
 console.log(`this is ${6/0}`);
 
@@ -13,6 +16,7 @@ let calculateStorage = JSON.parse(localStorage.getItem('calculation')) || '';
 getInput(input);
 calculate();
 clearStorage();
+toggleTheme ();
 
 
 function getInput(input) {
@@ -62,9 +66,6 @@ function calculate(){
     });
 }
 
-
-
-
 //clear storage
 function clearStorage() {
     clear.addEventListener('click', () => {
@@ -76,4 +77,11 @@ function clearStorage() {
         screen.textContent = '0';
 
 });
+}
+
+function toggleTheme (){
+    themeToggle.addEventListener('click', () =>{
+        document.body.classList.toggle('light-theme');
+        
+    });
 }
